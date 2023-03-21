@@ -1,0 +1,63 @@
+
+.presc-upload-bg {
+  background:linear-gradient(180deg, rgba(106,196,181,0.6) 15%, rgba(106,196,181,0.6) 80%), url(../src//assets//PrescUploadImgs/Rectangle75.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.presc-upload {
+  background-image: url(../src/assets/PrescUploadImgs/prec-banner1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slick-arrow.slick-next::before {
+  color: black !important;
+  font-size: 21px !important;
+}
+
+
+
+
+.bg-\[\#6AC4B5\].m-32.h-\[300px\].mx-auto.rounded-\[40px\].pb-8 {
+  margin: 118px 12px 12px 12px;
+} 
+
+.our-doctors svg.slick-arrow.slick-prev {
+  margin-top: 56px;
+} 
+
+.our-doctors svg.slick-arrow.slick-next {
+  margin-top: 56px;
+}
+
+.bg-\[\#6AC4B5\].rounded-full.py-12.mx-auto.flex.justify-center.items-center {
+  opacity: 64%;
+}
+
+
+.services-slider button.slick-arrow.slick-prev {
+  position: relative;
+  top: 184px;
+}
+
+.services-slider button.slick-arrow.slick-next {
+  position: absolute;
+  top: 184px;
+}
+
+
+nav.w-full.bg-white.shadow {
+  position: sticky;
+  top: -1px;
+  z-index: 99;
+}
+
+
+@media screen and (max-width: 767px) {
+  .slick-next {
+    display: none !important;
+}
+}
